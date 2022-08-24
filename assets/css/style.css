@@ -1,0 +1,40 @@
+/*
+https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
+
+color palette
+#434A50
+#EFF5F6
+#627E8A
+#8EA3A9
+#847980
+#CAA78C
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0 100 0 / 0.1);
+    /*background-image: url('../../assets/img/bg.jpg');*/
+    height: 100vh;
+}
+
+.home {
+    margin: 20% auto;
+    background: rgba(0 100 0 / 0.1);
+    width: 50%;
+    text-align: center;
+}
+
+.counter__container{
+    background: rgba(0 100 0 / 0.1);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.counter
+
