@@ -1,9 +1,9 @@
-const year = 2022
+const year = 2023
 /* 0=January 1=Febuary ... 11=december */
-const month = 7
-const day = 31
-const hour = 20
-const minute = 52
+const month = 0
+const day = 1
+const hour = 0
+const minute = 0
 const second = 0
 const milissecond = 00
 
