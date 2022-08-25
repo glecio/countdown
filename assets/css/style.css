@@ -3,12 +3,13 @@ https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 
 color palette
 #434A50
-#EFF5F6
+#EFF5F6 - cinza claro
 #627E8A
 #8EA3A9
 #847980
 #CAA78C
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -17,24 +18,61 @@ color palette
 }
 
 body {
-    background: rgba(0 100 0 / 0.1);
-    /*background-image: url('../../assets/img/bg.jpg');*/
-    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../../assets/img/bg.jpg');
+    background-position-y: 30rem;
+    background-repeat: no-repeat;
+    background: #EFF5F6 0.1;
+    
 }
 
 .home {
-    margin: 20% auto;
-    background: rgba(0 100 0 / 0.1);
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
-.counter__container{
-    background: rgba(0 100 0 / 0.1);
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
+.home__title {
+    font-size: 3rem;
+    padding: 10rem 0rem;
+    font-weight: 600;
 }
 
-.counter
+.counter__container{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.counter {
+    text-align: center;
+    width: 8rem;
+}
+
+.counter__title {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+
+.counter_value {
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.counter__seconds {
+    text-align: left;
+    padding-left: 0.4rem;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .counter__container {
+        flex-direction: column;
+    }
+
+    
+}
