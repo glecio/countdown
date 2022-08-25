@@ -19,11 +19,8 @@ color palette
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('../../assets/img/bg.jpg');
-    background-position-y: 30rem;
-    background-repeat: no-repeat;
-    background: #EFF5F6 0.1;
-    
+    background: #f9fafc;
+    height: 100vh;
 }
 
 .home {
@@ -33,7 +30,7 @@ body {
 
 .home__title {
     font-size: 3rem;
-    padding: 10rem 0rem;
+    padding: 6rem 0rem;
     font-weight: 600;
 }
 
@@ -67,7 +64,13 @@ body {
     padding-left: 0.4rem;
 }
 
+section.background {
+    height: 50vh;
+    background-image: url('../../assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
 @media screen and (max-width: 1024px){
     .counter__container {
